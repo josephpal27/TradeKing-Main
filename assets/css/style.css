@@ -26,6 +26,7 @@ nav{
     position: absolute !important;
     top: 0;
     width: 100%;
+    z-index: 100;
 }
 .navbar-brand img {
     width: 60px;
@@ -186,8 +187,89 @@ nav .btn-login:hover{
 /* Navbar End */
 
 /* Banner Start */
+.banner{
+    position: relative;
+}
 .banner img{
     width: 100%;
     height: 100vh;
+}
+.banner .banner-content{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner .banner-content h1{
+    color: #000;
+    font-size: calc(3.2rem + 0.5vw);
+    font-weight: 900;
+    background-color: #fff;
+    padding: 0.3rem 2rem 0.5rem 2rem;
+    border-radius: 50px;
+}
+.banner .banner-content span{
+    color: #de3597;
+}
+
+.banner-animated-text{
+    margin-top: 2rem;
+    height: 65px;
+    background-color: #fff;
+    padding: 0.3rem 2rem 0.5rem 2rem;
+    border-radius: 50px;
+}
+.banner-animated-text p {
+    display: inline-block;
+    font-size: calc(2rem + 0.5vw);
+    color: #000;
+    font-weight: 900;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 5px solid #000;
+    transition: color 0.2s, opacity 0.3s;
+    opacity: 1;
+    animation: blink-cursor 1s steps(1) infinite;
+}
+@keyframes blink-cursor {
+    0%, 100% { border-color: #000; }
+    50% { border-color: transparent; }
+}
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1260px) and (max-width: 1399px){
+    .banner .banner-content h1{
+        font-size: calc(3.5rem + 0.5vw);
+    }
+    .banner-animated-text{
+        height: 75px;
+        padding: 0.3rem 2rem 0.4rem 2rem;
+    }
+    .banner-animated-text p {
+        font-size: calc(2.3rem + 0.5vw);
+        border-right: 7px solid #000;
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .banner .banner-content h1{
+        font-size: calc(3.8rem + 0.5vw);
+        padding: 0.3rem 2.2rem 0.6rem 2.2rem;
+        border-radius: 50px;
+    }
+    .banner-animated-text{
+        margin-top: 2.3rem;
+        height: 85px;
+        padding: 0.4rem 2rem 0.3rem 2rem;
+    }
+    .banner-animated-text p {
+        font-size: calc(2.6rem + 0.5vw);
+        border-right: 7px solid #000;
+    }
 }
 /* Banner End */
