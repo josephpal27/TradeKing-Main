@@ -327,6 +327,7 @@ nav .btn-login:hover{
 /* Why Choose Start */
 .why-choose{
     padding: 2.5rem 5% 1rem 5%;
+    background-color: #f7f7f7;
 }
 .why-choose h2{
     text-align: center;
@@ -350,6 +351,7 @@ nav .btn-login:hover{
     justify-content: center;
     text-align: center;
     gap: 0.6rem;
+    background-color: #fff;
     margin-bottom: 2.7rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 1.5rem;
@@ -420,3 +422,86 @@ nav .btn-login:hover{
     }
 }
 /* Why Choose End */
+
+/* Downloads Start */
+.downloads{
+    background-color: #fff;
+    padding: 2.5rem 5% 3.5rem 5%;
+}
+.downloads h3{
+    font-size: calc(2.4rem + 0.5vw);
+    font-weight: 360;
+    color: #4a4a4a;
+    text-align: center;
+    margin-top: 1rem;
+}
+.downloads p{
+    font-size: calc(1.2rem + 0.5vw);
+    font-weight: 900;
+    color: #000;
+    text-align: center;
+    margin-top: 2rem;
+}
+.downloads .btn-row{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.downloads .btn-row a{
+    width: 15%;
+}
+.downloads .btn-row button{
+    width: 100%;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: calc(0.65rem + 0.5vw);
+    font-weight: 600;
+    background-color: #e2339a;
+    transition: all 0.2s ease-in-out;
+}
+.downloads .btn-row button i{
+    margin-right: 5px;
+}
+.downloads .btn-row button:hover{
+    background-color: #b81876;
+}
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1260px) and (max-width: 1399px){
+    .downloads h3{
+        font-size: calc(2.6rem + 0.5vw);
+    }
+    .downloads p{
+        font-size: calc(1.4rem + 0.5vw);
+        margin-top: 2.5rem;
+    }
+    .downloads .btn-row{
+        margin-top: 1.3rem;
+    }
+    .downloads .btn-row button{
+        padding: 0.7rem 1rem;
+        font-size: calc(0.75rem + 0.5vw);
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .downloads h3{
+        font-size: calc(2.8rem + 0.5vw);
+    }
+    .downloads p{
+        font-size: calc(1.55rem + 0.5vw);
+        margin-top: 2.7rem;
+    }
+    .downloads .btn-row{
+        margin-top: 1.5rem;
+    }
+    .downloads .btn-row button{
+        padding: 0.8rem 1rem;
+        font-size: calc(0.85rem + 0.5vw);
+    }
+}
+/* Downloads End */
