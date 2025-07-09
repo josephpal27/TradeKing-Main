@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: unset !important; /* Disable default smooth scrolling in Bootstrap */
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Roboto", sans-serif;
+}
+
+p, a{
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+/* Navbar Start */
+nav{
+    padding: 0.5rem 2rem !important;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    position: absolute !important;
+    top: 0;
+    width: 100%;
+}
+.navbar-brand img {
+    width: 60px;
+    border-radius: 7px;
+}
+.nav-link {
+    margin: 0 0.3rem;
+    font-size: calc(0.55rem + 0.5vw);
+    font-weight: 700;
+    color: #fff;
+}
+.nav-link:hover,
+.nav-link.active {
+    color: #f148aa !important;
+}
+nav .dropdown-menu {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: 0.7rem;
+}
+nav .dropdown-menu li a {
+    color: #282828;
+    padding-bottom: 0;
+    font-size: calc(0.5rem + 0.5vw);
+    font-weight: 600;
+}
+nav .dropdown-menu li a:hover{
+    background-color: #fff;
+    color: #ea40a3;
+}
+nav .dropdown-item{
+    display: flex;
+}
+
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255,255,255,1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar-toggler:focus,
+.navbar-toggler:active{
+    outline: none;
+    box-shadow: none;
+}
+
+nav .btn-group-pill{
+    display: flex;
+    overflow: hidden;
+    border-radius: 20px;
+    transform: skewX(-22deg);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+nav .btn-group-pill a{
+    transform: skewX(5deg);
+    padding: 0.4rem 1.4rem;
+    font-weight: 650;
+    text-decoration: none;
+    font-size: calc(0.55rem + 0.5vw);
+    transition: all 0.3s ease;
+}
+nav .btn-signup{
+    background-color: #fff;
+    color: #000;
+}
+nav .btn-signup:hover{
+    background-color: #e04497;
+    color: #fff;
+}
+nav .btn-login{
+    background-color: #fe55b0;
+    color: #fff;
+}
+nav .btn-login:hover{
+    background-color: #24b3d3;
+}
+
+/* Dropdown menu hover effect for screens wider than 768px */
+@media (min-width: 768px) {
+    .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+    }
+    nav .dropdown-menu {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 768px) {
+    nav{
+        padding: 0.5rem 0 !important;
+    }
+    .nav-link {
+        font-size: calc(0.8rem + 0.5vw);
+    }
+    nav .navbar-nav{
+        margin-top: 1.3rem;
+    }
+    nav .dropdown-menu {
+        padding-bottom: 0.7rem;
+    }
+    nav .dropdown-menu li a {
+        font-size: calc(0.75rem + 0.5vw);
+    }
+    nav .btn-group-pill{
+        margin-top: 0.7rem;
+        margin-bottom: 1rem;
+    }
+    nav .btn-group-pill a{
+        width: 50%;
+        text-align: center;
+        font-size: calc(0.75rem + 0.5vw);
+    }
+}
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1260px) and (max-width: 1399px){
+    nav{
+        padding: 0.6rem 3rem !important;
+    }
+    .navbar-brand img {
+        width: 70px;
+        border-radius: 8px;
+    }
+    .nav-link {
+        margin: 0 0.4rem;
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    nav .dropdown-menu li a {
+        font-size: calc(0.53rem + 0.5vw);
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    nav{
+        padding: 0.7rem 0 !important;
+    }
+    .navbar-brand img {
+        width: 80px;
+        border-radius: 10px;
+    }
+    .nav-link {
+        margin: 0 0.4rem;
+        font-size: calc(0.65rem + 0.5vw);
+    }
+    nav .dropdown-menu li a {
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    nav .btn-group-pill a{
+        padding: 0.5rem 1.6rem;
+        font-size: calc(0.6rem + 0.5vw);
+    }
+}
+/* Navbar End */
+
+/* Banner Start */
+.banner img{
+    width: 100%;
+    height: 100vh;
+}
+/* Banner End */
