@@ -76,3 +76,25 @@ particlesJS("features-canvas", {
 });
 
 // ---------------------------------------------------------------------------------------
+
+// Functionality For Home Page All Trades Cards Section Canvas Animation
+const tradeCanvasIds = ["all-trade-canvas-1", "all-trade-canvas-2", "all-trade-canvas-3"];
+const tradeParticlesConfig = {
+  particles: {
+    number: { value: 80 },
+    size: { value: 1.5 },
+    color: { value: "#fff" },
+    move: { speed: 4.5 },
+    line_linked: {
+      enable: true,
+      distance: 100,
+      color: "#fff",
+      opacity: 0.5,
+      width: 1,
+    },
+  },
+};
+
+tradeCanvasIds.forEach(id => particlesJS(id, tradeParticlesConfig));
+
+// ---------------------------------------------------------------------------------------
