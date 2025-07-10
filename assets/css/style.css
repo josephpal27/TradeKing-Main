@@ -805,6 +805,7 @@ nav .btn-login:hover{
     padding: 3rem 7%;
     margin-top: 3.5rem;
     position: relative;
+    overflow: hidden;
 }
 .simple-steps #simple-steps-canvas{
     position: absolute;
