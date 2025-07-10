@@ -277,12 +277,12 @@ nav .btn-login:hover{
 /* Features Row Start */
 .features-row{
     padding: 3rem 5%;
-    background-color: #f1f1f1;
+    background-color: #e2d1fd;
     display: flex;
     justify-content: space-between;
 }
 .features-row .feature-card{
-    width: 16%;
+    width: 11%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -290,23 +290,24 @@ nav .btn-login:hover{
     text-align: center;
 }
 .features-row .feature-card img{
-    width: 45px;
+    width: 40px;
 }
 .features-row .feature-card p{
     color: #000;
-    margin-top: 1.3rem;
+    margin-top: 1rem;
     font-weight: 800;
-    font-size: calc(0.65rem + 0.5vw);
+    font-size: calc(0.6rem + 0.5vw);
     line-height: normal;
 }
 
 /* For 110% in 15 inch screens */
 @media screen and (min-width: 1260px) and (max-width: 1399px){
     .features-row .feature-card img{
-        width: 50px;
+        width: 47px;
     }
     .features-row .feature-card p{
-        font-size: calc(0.7rem + 0.5vw);
+        font-size: calc(0.65rem + 0.5vw);
+        margin-top: 1.2rem;
     }
 }
 
@@ -316,192 +317,11 @@ nav .btn-login:hover{
         padding: 3.5rem 5%;
     }
     .features-row .feature-card img{
-        width: 55px;
+        width: 50px;
     }
     .features-row .feature-card p{
-        font-size: calc(0.75rem + 0.5vw);
+        font-size: calc(0.7rem + 0.5vw);
+        margin-top: 1.3rem;
     }
 }
 /* Features Row End */
-
-/* Why Choose Start */
-.why-choose{
-    padding: 2.5rem 5% 1rem 5%;
-    background-color: #f7f7f7;
-}
-.why-choose h2{
-    text-align: center;
-    font-weight: 900;
-    font-size: calc(2.3rem + 0.5vw);
-}
-.why-choose h2 span{
-    color: #e03499;
-}
-.why-choose .choose-card-row{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 3rem;
-}
-.why-choose .choose-card-row .choose-card{
-    width: 48%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 0.6rem;
-    background-color: #fff;
-    margin-bottom: 2.7rem;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 1.5rem;
-    border-radius: 10px;
-    transition: all 0.2s ease-in-out;
-}
-.why-choose .choose-card-row .choose-card:hover{
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
-}
-.why-choose .choose-card-row .choose-card img{
-    width: 45px;
-}
-.why-choose .choose-card-row .choose-card span{
-    color: #000;
-    font-weight: 700;
-    font-family: "Roboto", sans-serif;
-    font-size: calc(0.8rem + 0.5vw);
-    margin-top: 0.3rem;
-}
-.why-choose .choose-card-row .choose-card p{
-    color: #434343;
-    font-weight: 500;
-    font-size: calc(0.55rem + 0.5vw);
-}
-
-/* For 110% in 15 inch screens */
-@media screen and (min-width: 1260px) and (max-width: 1399px){
-    .why-choose h2{
-        font-size: calc(2.5rem + 0.5vw);
-    }
-    .why-choose .choose-card-row .choose-card{
-        margin-bottom: 2.9rem;
-        padding: 1.8rem;
-    }
-    .why-choose .choose-card-row .choose-card img{
-        width: 50px;
-    }
-    .why-choose .choose-card-row .choose-card span{
-        font-size: calc(0.85rem + 0.5vw);
-        margin-top: 0.4rem;
-    }
-    .why-choose .choose-card-row .choose-card p{
-        font-size: calc(0.6rem + 0.5vw);
-    }
-}
-
-/* For 100% in 15 inch screens */
-@media screen and (min-width: 1400px) {
-    .why-choose{
-        padding: 3.5rem 5% 1.5rem 5%;
-    }
-    .why-choose h2{
-        font-size: calc(2.7rem + 0.5vw);
-    }
-    .why-choose .choose-card-row .choose-card{
-        margin-bottom: 3.2rem;
-        padding: 2rem;
-    }
-    .why-choose .choose-card-row .choose-card img{
-        width: 55px;
-    }
-    .why-choose .choose-card-row .choose-card span{
-        font-size: calc(0.9rem + 0.5vw);
-        margin-top: 0.5rem;
-    }
-    .why-choose .choose-card-row .choose-card p{
-        font-size: calc(0.65rem + 0.5vw);
-    }
-}
-/* Why Choose End */
-
-/* Downloads Start */
-.downloads{
-    background-color: #fff;
-    padding: 2.5rem 5% 3.5rem 5%;
-}
-.downloads h3{
-    font-size: calc(2.4rem + 0.5vw);
-    font-weight: 360;
-    color: #4a4a4a;
-    text-align: center;
-    margin-top: 1rem;
-}
-.downloads p{
-    font-size: calc(1.2rem + 0.5vw);
-    font-weight: 900;
-    color: #000;
-    text-align: center;
-    margin-top: 2rem;
-}
-.downloads .btn-row{
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-}
-.downloads .btn-row a{
-    width: 15%;
-}
-.downloads .btn-row button{
-    width: 100%;
-    padding: 0.6rem 1rem;
-    border: none;
-    border-radius: 10px;
-    color: #fff;
-    font-size: calc(0.65rem + 0.5vw);
-    font-weight: 600;
-    background-color: #e2339a;
-    transition: all 0.2s ease-in-out;
-}
-.downloads .btn-row button i{
-    margin-right: 5px;
-}
-.downloads .btn-row button:hover{
-    background-color: #b81876;
-}
-
-/* For 110% in 15 inch screens */
-@media screen and (min-width: 1260px) and (max-width: 1399px){
-    .downloads h3{
-        font-size: calc(2.6rem + 0.5vw);
-    }
-    .downloads p{
-        font-size: calc(1.4rem + 0.5vw);
-        margin-top: 2.5rem;
-    }
-    .downloads .btn-row{
-        margin-top: 1.3rem;
-    }
-    .downloads .btn-row button{
-        padding: 0.7rem 1rem;
-        font-size: calc(0.75rem + 0.5vw);
-    }
-}
-
-/* For 100% in 15 inch screens */
-@media screen and (min-width: 1400px) {
-    .downloads h3{
-        font-size: calc(2.8rem + 0.5vw);
-    }
-    .downloads p{
-        font-size: calc(1.55rem + 0.5vw);
-        margin-top: 2.7rem;
-    }
-    .downloads .btn-row{
-        margin-top: 1.5rem;
-    }
-    .downloads .btn-row button{
-        padding: 0.8rem 1rem;
-        font-size: calc(0.85rem + 0.5vw);
-    }
-}
-/* Downloads End */

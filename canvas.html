@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Particle Banner</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #banner {
+            position: relative;
+            height: 100vh;
+            overflow: hidden;
+            background: #6c44a5;
+        }
+
+        #particles-banner {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+
+        h1 {
+            position: relative;
+            z-index: 1;
+            color: #ffffff;
+            text-align: center;
+            margin-top: 40vh;
+            font-size: calc(3.8rem + 0.5vw);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="banner">
+        <div id="particles-banner"></div>
+        <h1>Banner Text</h1>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS("particles-banner", {
+            particles: {
+                number: { value: 30 },
+                size: { value: 1 },
+                color: { value: "#fff" },
+                move: { speed: 3.5 },
+                line_linked: {
+                    enable: true,
+                    distance: 150,
+                    color: "#fff",
+                    opacity: 0.5,
+                    width: 1
+                }
+            },
+            interactivity: {
+                detect_on: "canvas",
+                events: {
+                    onhover: {
+                        enable: true,
+                        mode: "grab" // change to "repulse" or "bubble" for different effects
+                    },
+                    onclick: {
+                        enable: false
+                    },
+                    resize: true
+                },
+                modes: {
+                    grab: {
+                        distance: 100,
+                        duration: 0.4
+                    }
+                }
+            }
+        });
+    </script>
+
+</body>
+
+</html>
