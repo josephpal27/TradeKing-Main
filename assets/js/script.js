@@ -98,3 +98,22 @@ const tradeParticlesConfig = {
 tradeCanvasIds.forEach(id => particlesJS(id, tradeParticlesConfig));
 
 // ---------------------------------------------------------------------------------------
+
+// Functionality For Home Page Simple Steps Section Canvas Animation
+particlesJS("simple-steps-canvas", {
+  particles: {
+    number: { value: 80 },
+    size: { value: 1.6 },
+    color: { value: "#fff" },
+    move: { speed: 4.5 },
+    line_linked: {
+      enable: true,
+      distance: 100,
+      color: "#fff",
+      opacity: 0.5,
+      width: 1,
+    },
+  },
+});
+
+// ---------------------------------------------------------------------------------------

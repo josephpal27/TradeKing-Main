@@ -769,7 +769,7 @@ nav .btn-login:hover{
     }
     .faq .accordion-button,
     .faq .accordion-body {
-        padding: 1.4rem 1.2rem;
+        padding: 1.2rem 1.2rem;
     }
     .faq .accordion-button{
         font-size: calc(0.8rem + 0.5vw);
@@ -789,7 +789,7 @@ nav .btn-login:hover{
     }
     .faq .accordion-button,
     .faq .accordion-body {
-        padding: 1.5rem 1.8rem;
+        padding: 1.3rem 1.8rem;
     }
     .faq .accordion-button{
         font-size: calc(0.85rem + 0.5vw);
@@ -801,5 +801,140 @@ nav .btn-login:hover{
 /* FAQ End */
 
 /* Simple Steps Start */
+.simple-steps{
+    padding: 3rem 7%;
+    margin-top: 3.5rem;
+    position: relative;
+}
+.simple-steps #simple-steps-canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #24b3d3, #de3597 70%);
+}
+.simple-steps h6{
+    position: relative;
+    font-size: calc(2rem + 0.5vw);
+    font-weight: 900;
+    color: #fff;
+}
+.simple-steps-row{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.simple-steps-row .simple-steps-box{
+    width: 24%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.simple-steps-row .simple-steps-box .simple-steps-box-left span{
+    display: block;
+    font-size: calc(1.5rem + 0.5vw);
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    color: #de3597;
+    background-color: #fff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.simple-steps-row .simple-steps-box .simple-steps-box-right{
+    margin-left: 1rem;
+}
+.simple-steps-row .simple-steps-box .simple-steps-box-right span{
+    display: block;
+    font-size: calc(0.8rem + 0.5vw);
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    color: #fff;
+}
+.simple-steps-row .simple-steps-box .simple-steps-box-right p{
+    font-size: calc(0.55rem + 0.5vw);
+    font-weight: 500;
+    color: #fff;
+    margin-top: 0.5rem;
+}
+.simple-steps-row .simple-steps-box button{
+    border: none;
+    background-color: #fff;
+    color: #de3597;
+    font-size: calc(0.65rem + 0.5vw);
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+.simple-steps-row .simple-steps-box button:hover{
+    background-color: #21b5d6;
+    color: #fff;
+}
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1260px) and (max-width: 1399px){
+    .simple-steps{
+        padding: 3.5rem 7%;
+        margin-top: 4.5rem;
+    }
+    .simple-steps h6{
+        font-size: calc(2.3rem + 0.5vw);
+    }
+    .simple-steps-row .simple-steps-box .simple-steps-box-left span{
+        font-size: calc(1.6rem + 0.5vw);
+        width: 47px;
+        height: 47px;
+    }
+    .simple-steps-row .simple-steps-box .simple-steps-box-right{
+        margin-left: 1.2rem;
+    }
+    .simple-steps-row .simple-steps-box .simple-steps-box-right span{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .simple-steps-row .simple-steps-box .simple-steps-box-right p{
+        font-size: calc(0.65rem + 0.5vw);
+        margin-top: 0.6rem;
+    }
+    .simple-steps-row .simple-steps-box button{
+        font-size: calc(0.7rem + 0.5vw);
+        padding: 0.6rem 1.5rem;
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .simple-steps{
+        padding: 4rem 7%;
+        margin-top: 5rem;
+    }
+    .simple-steps h6{
+        font-size: calc(2.5rem + 0.5vw);
+    }
+    .simple-steps-row .simple-steps-box .simple-steps-box-left span{
+        font-size: calc(1.7rem + 0.5vw);
+        width: 55px;
+        height: 55px;
+    }
+    .simple-steps-row .simple-steps-box .simple-steps-box-right{
+        margin-left: 1.2rem;
+    }
+    .simple-steps-row .simple-steps-box .simple-steps-box-right span{
+        font-size: calc(1rem + 0.5vw);
+    }
+    .simple-steps-row .simple-steps-box .simple-steps-box-right p{
+        font-size: calc(0.75rem + 0.5vw);
+        margin-top: 0.6rem;
+    }
+    .simple-steps-row .simple-steps-box button{
+        font-size: calc(0.8rem + 0.5vw);
+        padding: 0.8rem 1.9rem;
+    }
+}
 /* Simple Steps End */
 
