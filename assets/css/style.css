@@ -593,3 +593,112 @@ nav .btn-login:hover{
     }
 }
 /* All Trades End */
+
+/* Why Choose Start */
+.why-choose{
+    padding: 0 7% 3.5rem 7%;
+}
+.why-choose h4{
+    font-size: calc(2.2rem + 0.5vw);
+    font-weight: 800;
+    background: linear-gradient(to right, #24b3d3 30%, #de3597 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+.why-choose-card-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+.why-choose-card{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-bottom: 1.4rem;
+    min-height: 215px;
+    box-shadow: rgba(0, 0, 0, 0.247) 0px 3px 6px, rgba(0, 0, 0, 0.263) 0px 3px 6px;
+    transition: all 0.2s ease-in;
+}
+.why-choose-card:hover{
+    background-color: #f4f4f4;
+}
+.why-choose-card img{
+    filter: invert(17%) sepia(98%) saturate(6114%) hue-rotate(303deg) brightness(89%) contrast(94%);
+    width: 65px;
+}
+.why-choose-card span{
+    font-family: "Roboto", sans-serif;
+    font-size: calc(0.75rem + 0.5vw);
+    font-weight: 600;
+    color: #de3597;
+    display: block;
+    margin-top: 1.2rem;
+}
+.why-choose-card p{
+    font-size: calc(0.5rem + 0.5vw);
+    margin-top: 0.4rem;
+}
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1260px) and (max-width: 1399px){
+    .why-choose{
+        padding: 0 7% 3.5rem 7%;
+    }
+    .why-choose h4{
+        font-size: calc(2.5rem + 0.5vw);
+    }
+    .why-choose-card{
+        padding: 1.5rem;
+        margin-bottom: 1.55rem;
+        min-height: 235px;
+    }
+    .why-choose-card img{
+        width: 68px;
+    }
+    .why-choose-card span{
+        font-size: calc(0.8rem + 0.5vw);
+        margin-top: 1.6rem;
+    }
+    .why-choose-card p{
+        font-size: calc(0.52rem + 0.5vw);
+        margin-top: 0.4rem;
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .why-choose{
+        padding: 0 7% 3rem 7%;
+    }
+    .why-choose h4{
+        font-size: calc(2.7rem + 0.5vw);
+    }
+    .why-choose-card{
+        padding: 1.5rem;
+        margin-bottom: 1.7rem;
+        min-height: 255px;
+    }
+    .why-choose-card img{
+        width: 72px;
+    }
+    .why-choose-card span{
+        font-size: calc(0.85rem + 0.5vw);
+        margin-top: 2rem;
+    }
+    .why-choose-card p{
+        font-size: calc(0.6rem + 0.5vw);
+        margin-top: 0.5rem;
+    }
+}
+/* Why Choose End */
+
