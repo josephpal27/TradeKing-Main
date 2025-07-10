@@ -57,3 +57,22 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // ---------------------------------------------------------------------------------------
+
+// Functionality For Home Page Features Section Canvas Animation
+particlesJS("features-canvas", {
+  particles: {
+    number: { value: 70 },
+    size: { value: 1.5 },
+    color: { value: "#fff" },
+    move: { speed: 4.5 },
+    line_linked: {
+      enable: true,
+      distance: 100,
+      color: "#fff",
+      opacity: 0.5,
+      width: 1,
+    },
+  },
+});
+
+// ---------------------------------------------------------------------------------------

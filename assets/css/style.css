@@ -7,6 +7,11 @@ html{
     scroll-behavior: unset !important; /* Disable default smooth scrolling in Bootstrap */
 }
 
+::selection{
+    background-color: #ff97cf;
+    color: #fff;
+}
+
 h1,h2,h3,h4,h5,h6{
     font-family: "Roboto", sans-serif;
 }
@@ -277,9 +282,17 @@ nav .btn-login:hover{
 /* Features Row Start */
 .features-row{
     padding: 3rem 5%;
-    background-color: #e2d1fd;
     display: flex;
     justify-content: space-between;
+    position: relative;
+}
+.features-row #features-canvas{
+    background: linear-gradient(to right, #24b3d3, #de3597 70%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 .features-row .feature-card{
     width: 11%;
@@ -291,9 +304,10 @@ nav .btn-login:hover{
 }
 .features-row .feature-card img{
     width: 40px;
+    filter: invert(1);
 }
 .features-row .feature-card p{
-    color: #000;
+    color: #fff;
     margin-top: 1rem;
     font-weight: 800;
     font-size: calc(0.6rem + 0.5vw);
