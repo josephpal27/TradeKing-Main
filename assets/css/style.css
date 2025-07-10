@@ -11,7 +11,7 @@ h1,h2,h3,h4,h5,h6{
     font-family: "Roboto", sans-serif;
 }
 
-p, a{
+p, a, button{
     font-family: "Nunito Sans", sans-serif;
     margin: 0;
 }
@@ -325,3 +325,123 @@ nav .btn-login:hover{
     }
 }
 /* Features Row End */
+
+/* Trading Register Start */
+.trading-register{
+    padding: 3.5rem 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.trading-register-image{
+    width: 37%;
+}
+.trading-register-image img{
+    width: 100%;
+    border-radius: 10px;
+    border: 1.5px solid #de3597;
+    box-shadow: 5px 5px 0 0 #de3597;
+}
+.trading-register-content{
+    width: 58%;
+}
+.trading-register-content h2{
+    font-size: calc(2.2rem + 0.5vw);
+    font-weight: 800;
+    background: linear-gradient(to right, #24b3d3, #de3597 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+.trading-register-content p{
+    color: #000;
+    font-size: calc(0.8rem + 0.5vw);
+    margin-top: 1rem;
+    font-weight: 500;
+}
+.trading-register-content>div{
+    margin-top: 2rem;
+}
+.trading-register-content>div p{
+    margin-top: 0.5rem;
+}
+.trading-register-content>div p i{
+    color: #1393af;
+    margin-right: 5px;
+}
+.trading-register-content button{
+    border: none;
+    background-color: #de3597;
+    color: #fff;
+    font-size: calc(0.8rem + 0.5vw);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-top: 2.5rem;
+    transition: all 0.2s ease;
+}
+.trading-register-content button i{
+    margin-left: 5px;
+}
+.trading-register-content button:hover{
+    background-color: #1393af;
+}
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1260px) and (max-width: 1399px){
+    .trading-register{
+        padding: 4rem 5%;
+    }
+    .trading-register-image img{
+        box-shadow: 6px 6px 0 0 #de3597;
+    }
+    .trading-register-content h2{
+        font-size: calc(2.5rem + 0.5vw);
+    }
+    .trading-register-content p{
+        font-size: calc(0.85rem + 0.5vw);
+    }
+    .trading-register-content>div{
+        margin-top: 2.2rem;
+    }
+    .trading-register-content>div p{
+        margin-top: 0.6rem;
+    }
+    .trading-register-content button{
+        font-size: calc(0.85rem + 0.5vw);
+        margin-top: 2.7rem;
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .trading-register{
+        padding: 4.5rem 5%;
+    }
+    .trading-register-image img{
+        box-shadow: 8px 8px 0 0 #de3597;
+    }
+    .trading-register-content h2{
+        font-size: calc(2.7rem + 0.5vw);
+    }
+    .trading-register-content p{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .trading-register-content>div{
+        margin-top: 2.4rem;
+    }
+    .trading-register-content>div p{
+        margin-top: 0.7rem;
+    }
+    .trading-register-content>div p i{
+        margin-right: 6px;
+    }
+    .trading-register-content button{
+        font-size: calc(0.95rem + 0.5vw);
+        padding: 0.6rem 1.2rem;
+        margin-top: 2.8rem;
+    }
+    .trading-register-content button i{
+        margin-left: 6px;
+    }
+}
+/* Trading Register End */
