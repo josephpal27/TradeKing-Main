@@ -95,3 +95,51 @@
     }
 }
 /* Banner End */
+
+/* Why Trade Start */
+.why-trade{
+    padding: 3.5rem 7%;
+    background-color: #fff;
+    opacity: 1;
+    background-image:  linear-gradient(#f4f4f4 2px, transparent 3px), linear-gradient(to right, #f4f4f4 2px, #fafafa 2px);
+    background-size: 90px 90px;
+}
+.why-trade h2{
+    font-size: calc(2.2rem + 0.5vw);
+    font-weight: 900;
+    background: linear-gradient(to right, #24b3d3 30%, #de3597 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+.why-trade-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+.why-trade-content .why-trade-image{
+    width: 42%;
+}
+.why-trade-content .why-trade-image img{
+    width: 100%;
+}
+.why-trade-content .why-trade-accordion{
+    width: 56%;
+    padding: 1.2rem;
+    background-color: #fff;
+    margin-top: 0.5rem;
+}
+.why-trade-accordion .accordion-item{
+    border: none !important;
+    border-bottom: 1.5px solid #e4e4e4 !important;
+}
+.why-trade-accordion .accordion-button,
+.why-trade-accordion .accordion-body {
+    background-color: #fff !important;
+    box-shadow: none;
+    color: #000;
+    font-weight: 600;
+}
+/* Why Trade End */
