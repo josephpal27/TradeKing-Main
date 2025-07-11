@@ -2,12 +2,11 @@
 // Functionality for Home Page Banner Animated Text
 document.addEventListener("DOMContentLoaded", function () {
     const texts = [
-        "MCX/MCX Mini",
-        "Forex",
-        "COMEX",
-        "Options Trading",
-        "Cryptocurrency",
         "NSE",
+        "MCX",
+        "COMEX",
+        "CRYPTO",
+        "FOREX",
     ];
     const el = document.querySelector('.banner-animated-text p');
     let textIndex = 0;
