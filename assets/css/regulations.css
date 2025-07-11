@@ -1,14 +1,8 @@
-nav{
-    position: relative !important;
-    background: linear-gradient(to right, #101d51, #042f97, #225ccf, #3662e7, #2247ab, #132c6e);
-}
-
-/* -------------------------------------------------------------------------- */
 
 /* Banner Start */
 .banner{
     position: relative;
-    padding: 3rem 7%;
+    padding: 7rem 7% 3rem 7%;
     text-align: center;
     color: #fff;
 }
@@ -35,7 +29,7 @@ nav{
 /* For 110% in 15 inch screens */
 @media screen and (min-width: 1260px) and (max-width: 1399px){
     .banner{
-        padding: 3.5rem 7%;
+        padding: 7.5rem 7% 3.5rem 7%;
     }
     .banner h1{
         font-size: calc(4rem + 0.5vw);
@@ -49,7 +43,7 @@ nav{
 /* For 100% in 15 inch screens */
 @media screen and (min-width: 1400px) {
     .banner{
-        padding: 4rem 7%;
+        padding: 8rem 7% 4rem 7%;
     }
     .banner h1{
         font-size: calc(4.4rem + 0.5vw);
