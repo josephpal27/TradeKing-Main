@@ -127,19 +127,115 @@
 }
 .why-trade-content .why-trade-accordion{
     width: 56%;
-    padding: 1.2rem;
+    padding: 0.7rem 1.2rem 1.2rem 1.2rem;
     background-color: #fff;
     margin-top: 0.5rem;
+    border-radius: 15px;
+    height: max-content;
 }
 .why-trade-accordion .accordion-item{
     border: none !important;
-    border-bottom: 1.5px solid #e4e4e4 !important;
+    border-bottom: 1.2px solid #dfdfdf !important;
+    margin-bottom: 0.2rem;
 }
 .why-trade-accordion .accordion-button,
 .why-trade-accordion .accordion-body {
     background-color: #fff !important;
     box-shadow: none;
-    color: #000;
+}
+.why-trade-accordion .accordion-button{
+    border-radius: 10px !important;
+    font-family: "Roboto", sans-serif;
     font-weight: 600;
+    color: #000;
+    font-size: calc(0.6rem + 0.5vw);
+}
+.why-trade-accordion .accordion-body{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 500;
+    color: #525252;
+    font-size: calc(0.5rem + 0.5vw);
+}
+.why-trade-accordion .accordion-button:not(.collapsed) {
+    background-color: #efe5fe !important;
+}
+.why-trade-accordion .accordion-button::after {
+    content: '';
+    background-image: none;
+}
+.why-trade-accordion .accordion-button::before {
+    content: '+';
+    font-size: calc(1rem + 0.5vw);
+    font-weight: 500;
+    position: absolute;
+    right: 1.5rem;
+}
+.why-trade-accordion .accordion-button:not(.collapsed)::before {
+    content: '−';
+}
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1260px) and (max-width: 1399px){
+    .why-trade{
+        padding: 4rem 7%;
+        background-size: 100px 100px;
+    }
+    .why-trade h2{
+        font-size: calc(2.5rem + 0.5vw);
+    }
+    .why-trade-content{
+        margin-top: 3rem;
+    }
+    .why-trade-content .why-trade-accordion{
+        padding: 0.7rem 1.2rem 1.2rem 1.2rem;
+        margin-top: 0.8rem;
+    }
+    .why-trade-accordion .accordion-item{
+        border-bottom: 1.3px solid #d8d8d8 !important;
+        margin-bottom: 0.4rem;
+    }
+    .why-trade-accordion .accordion-button{
+        font-size: calc(0.65rem + 0.5vw);
+    }
+    .why-trade-accordion .accordion-body{
+        font-size: calc(0.55rem + 0.5vw);
+    }
+    .why-trade-accordion .accordion-button::before {
+        font-size: calc(1.2rem + 0.5vw);
+        font-weight: 400;
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .why-trade{
+        padding: 4.5rem 7%;
+        background-image:  linear-gradient(#f4f4f4 3px, transparent 3px), linear-gradient(to right, #f4f4f4 3px, #fafafa 3px);
+        background-size: 110px 110px;
+    }
+    .why-trade h2{
+        font-size: calc(2.7rem + 0.5vw);
+    }
+    .why-trade-content{
+        margin-top: 3.3rem;
+    }
+    .why-trade-content .why-trade-accordion{
+        padding: 1.2rem 1.8rem 1.8rem 1.8rem;
+        margin-top: 0.8rem;
+    }
+    .why-trade-accordion .accordion-item{
+        border-bottom: 1.5px solid #d8d8d8 !important;
+        margin-bottom: 0.5rem;
+    }
+    .why-trade-accordion .accordion-button{
+        font-size: calc(0.7rem + 0.5vw);
+    }
+    .why-trade-accordion .accordion-body{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .why-trade-accordion .accordion-button::before {
+        font-size: calc(1.3rem + 0.5vw);
+        font-weight: 400;
+    }
 }
 /* Why Trade End */
