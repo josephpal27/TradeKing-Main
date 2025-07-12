@@ -239,3 +239,327 @@
     }
 }
 /* Why Trade End */
+
+/* National Stock Start */
+.national-stock{
+    padding: 3.5rem 7% 2.5rem 7%;
+    background-color: #fbfcfe;
+}
+.national-stock h3{
+    font-size: calc(2.2rem + 0.5vw);
+    font-weight: 900;
+    background: linear-gradient(to right, #24b3d3 30%, #de3597 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+.national-stock-content{
+    margin-top: 1rem;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.national-stock-left{
+    width: 57%;
+}
+.national-stock-left .national-stock-left-btns{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.national-stock-left .national-stock-left-btns button{
+    background-color: #faf6ff;
+    color: #000;
+    margin: 0;
+    font-size: calc(0.6rem + 0.5vw);
+}
+.national-stock-left .national-stock-left-btns button.active{
+    background-color: #e3e3e3;
+    color: #000 !important;
+}
+.national-stock-left .tab-content{
+    margin-top: 1.7rem;
+}
+.national-stock-left #nse{
+    height: 80vh;
+    overflow-y: scroll; 
+}
+.national-stock-left .table-wrapper{
+    margin-right: 1rem;
+}
+.national-stock-left #nse::-webkit-scrollbar {
+  width: 8px;
+}
+.national-stock-left #nse::-webkit-scrollbar-track {
+  background: #f3f3f3; /* track color */
+  border-radius: 10px;
+}
+.national-stock-left #nse::-webkit-scrollbar-thumb {
+  background: #cea4bc; /* thumb color */
+  border-radius: 10px;
+}
+.national-stock-left #nse::-webkit-scrollbar-thumb:hover {
+  background: #555; /* darker on hover */
+}
+.national-stock-left table{
+    width: 100%;
+    border-radius: 8px;
+    font-size: calc(0.55rem + 0.5vw);
+    color: #575757;
+    overflow: hidden;
+}
+.national-stock-left table td{
+    border: 1.5px solid #ccc;
+    padding: 11px;
+}
+.national-stock-left table tr:nth-child(odd){
+    background-color: #efe5fe;
+}
+.national-stock-left table tr:nth-child(even):hover{
+    background-color: #f8f3ff;
+}
+
+.national-stock-right{
+    width: 39%;
+}
+.national-stock-right span{
+    font-size: calc(1.2rem + 0.5vw);
+    font-weight: 700;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    line-height: normal;
+    text-align: center;
+    color: #212121;
+}
+.national-stock-right .margin-details-card{
+    padding: 1.2rem 1.5rem;
+    border: 1.5px solid #de3597;
+    border-radius: 10px;
+    margin-top: 2.2rem;
+}
+.national-stock-right .margin-details-card #margin-head{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 800;
+    color: #000;
+    display: block;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid #000;
+}
+.national-stock-right .margin-details-card .margin-desc{
+    text-align: center;
+    margin: 1.2rem 0 1.1rem 0;
+}
+.national-stock-right .margin-details-card .margin-desc p{
+    font-size: calc(1.1rem + 0.5vw);
+    font-weight: 800;
+    color: #000;
+}
+.national-stock-right .margin-details-card .margin-desc p:last-child{
+    color: #d61f8a;
+}
+.national-stock-right .margin-details-card #margin-label{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: calc(1rem + 0.5vw);
+    font-weight: 900;
+    color: #fff;
+    background-color: #1393af;
+    padding: 0.45rem 0;
+}
+.national-stock-right .margin-details-card #margin-foot{
+    font-size: calc(0.35rem + 0.5vw);
+    font-weight: 500;
+    color: #565656;
+}
+/* National Stock End */
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1260px) and (max-width: 1399px){
+    .national-stock{
+        padding: 4rem 7% 3rem 7%;
+    }
+    .national-stock h3{
+        font-size: calc(2.5rem + 0.5vw);
+    }
+    .national-stock-content{
+        margin-top: 1.5rem;
+    }
+    .national-stock-left .national-stock-left-btns{
+        gap: 1.3rem;
+    }
+    .national-stock-left .national-stock-left-btns button{
+        font-size: calc(0.65rem + 0.5vw);
+    }
+    .national-stock-left .tab-content{
+        margin-top: 2rem;
+    }
+    .national-stock-left .table-wrapper{
+        margin-right: 1.25rem;
+    }
+    .national-stock-left #nse::-webkit-scrollbar {
+        width: 9px;
+    }
+    .national-stock-left table{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .national-stock-left table td{
+        padding: 13px;
+    }
+    .national-stock-right span{
+        font-size: calc(1.25rem + 0.5vw);
+    }
+    .national-stock-right .margin-details-card{
+        padding: 1.8rem 2rem;
+        border: 1.8px solid #de3597;
+        margin-top: 2.4rem;
+    }
+    .national-stock-right .margin-details-card #margin-head{
+        font-size: calc(0.75rem + 0.5vw);
+        padding-bottom: 0.9rem;
+        border-bottom: 1.2px solid #000;
+    }
+    .national-stock-right .margin-details-card .margin-desc{
+        margin: 1.5rem 0 1.2rem 0;
+    }
+    .national-stock-right .margin-details-card .margin-desc p{
+        font-size: calc(1.15rem + 0.5vw);
+    }
+    .national-stock-right .margin-details-card #margin-label{
+        font-size: calc(1.05rem + 0.5vw);
+        padding: 0.5rem 0;
+    }
+    .national-stock-right .margin-details-card #margin-foot{
+        font-size: calc(0.38rem + 0.5vw);
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .national-stock{
+        padding: 4.5rem 7% 3.5rem 7%;
+    }
+    .national-stock h3{
+        font-size: calc(2.7rem + 0.5vw);
+    }
+    .national-stock-content{
+        margin-top: 1.7rem;
+    }
+    .national-stock-left .national-stock-left-btns{
+        gap: 1.5rem;
+    }
+    .national-stock-left .national-stock-left-btns button{
+        font-size: calc(0.7rem + 0.5vw);
+    }
+    .national-stock-left .tab-content{
+        margin-top: 2.3rem;
+    }
+    .national-stock-left .table-wrapper{
+        margin-right: 1.4rem;
+    }
+    .national-stock-left #nse::-webkit-scrollbar {
+        width: 10px;
+    }
+    .national-stock-left table{
+        font-size: calc(0.65rem + 0.5vw);
+    }
+    .national-stock-left table td{
+        padding: 15px;
+    }
+    .national-stock-right span{
+        font-size: calc(1.3rem + 0.5vw);
+    }
+    .national-stock-right .margin-details-card{
+        padding: 1.8rem 2rem;
+        border: 2px solid #de3597;
+        margin-top: 2.8rem;
+    }
+    .national-stock-right .margin-details-card #margin-head{
+        font-size: calc(0.9rem + 0.5vw);
+        padding-bottom: 1.2rem;
+        border-bottom: 1.5px solid #000;
+    }
+    .national-stock-right .margin-details-card .margin-desc{
+        margin: 1.8rem 0 1.3rem 0;
+    }
+    .national-stock-right .margin-details-card .margin-desc p{
+        font-size: calc(1.2rem + 0.5vw);
+    }
+    .national-stock-right .margin-details-card #margin-label{
+        font-size: calc(1.15rem + 0.5vw);
+        padding: 0.6rem 0;
+    }
+    .national-stock-right .margin-details-card #margin-foot{
+        font-size: calc(0.45rem + 0.5vw);
+    }
+}
+
+/* FAQ Start */
+.faqs{
+    padding: 3.5rem 7%;
+    background-color: #f7f2ff;
+}
+.faqs h4{
+    font-size: calc(2.2rem + 0.5vw);
+    font-weight: 900;
+    background: linear-gradient(to right, #24b3d3 30%, #de3597 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+.faqs .faqs-accordion{
+    margin-top: 2rem;
+    padding: 0 5rem;
+}
+.faqs .faqs-accordion .accordion-button,
+.faqs .faqs-accordion .accordion-body {
+    background-color: #f6f2ff !important;
+}
+.faqs .faqs-accordion .accordion-item{
+    background-color: #f6f2ff;
+}
+.faqs .faqs-accordion .accordion-button:not(.collapsed) {
+    background-color: #f6f2ff;
+}
+.faqs .faqs-accordion .accordion-item{
+    border-bottom: 1.5px solid #dbdbdb !important;
+}
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1260px) and (max-width: 1399px){
+    .faqs{
+        padding: 4rem 7%;
+    }
+    .faqs h4{
+        font-size: calc(2.5rem + 0.5vw);
+    }
+    .faqs .faqs-accordion{
+        padding: 0 6rem;
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .faqs{
+        padding: 4rem 7%;
+    }
+    .faqs h4{
+        font-size: calc(2.7rem + 0.5vw);
+    }
+    .faqs .faqs-accordion{
+        margin-top: 2.2rem;
+        padding: 0 7rem;
+    }
+}
+/* FAQ End */
+
+/* Simple Steps Start */
+.simple-steps{
+    margin-top: 0;
+}
+/* Simple Steps End */
