@@ -585,3 +585,29 @@
 }
 /* MCX Page Styles End */
 /* ---------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------- */
+/* Forex Page Styles Start */
+#forex-banner{
+    background-image: url('../images/forex-banner.webp');
+    position: relative;
+}
+#forex-banner .banner-layer{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.819) 30%, rgba(0, 0, 0, 0) 60%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.major-minor-pairs-content .national-stock-left{
+    width: 47%;
+}
+.major-minor-pairs-content .national-stock-right{
+    width: 49%
+}
+.major-minor-pairs-content .margin-details-card img{
+    width: 100%
+}
+/* Forex Page Styles End */
+/* ---------------------------------------------------------------- */
