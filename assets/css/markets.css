@@ -320,7 +320,7 @@
 }
 .national-stock-left table th{
     border: 1.5px solid #a4a4a4;
-    padding: 14px;
+    padding: 12px;
     background-color: #e03195;
     color: #fff;
 }
@@ -417,6 +417,9 @@
     .national-stock-left table td{
         padding: 13px;
     }
+    .national-stock-left table th{
+        padding: 14px;
+    }
     .national-stock-right span{
         font-size: calc(1.25rem + 0.5vw);
     }
@@ -476,6 +479,9 @@
     }
     .national-stock-left table td{
         padding: 15px;
+    }
+    .national-stock-left table th{
+        padding: 16px;
     }
     .national-stock-right span{
         font-size: calc(1.3rem + 0.5vw);

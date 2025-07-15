@@ -1,0 +1,290 @@
+/* Banner Start */
+.banner{
+    position: relative;
+    padding: 7rem 7% 3rem 7%;
+    color: #fff;
+}
+.banner .banner-canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #24b3d3, #de3597 70%);
+}
+.banner h1{
+    position: relative;
+    font-weight: 900;
+    font-size: calc(3rem + 0.5vw);
+}
+.banner p{
+    position: relative;
+    font-weight: 500;
+    font-size: calc(0.65rem + 0.5vw);
+    margin-top: 1rem;
+}
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1260px) and (max-width: 1399px){
+    .banner{
+        padding: 7.5rem 7% 3.5rem 7%;
+    }
+    .banner h1{
+        font-size: calc(3.5rem + 0.5vw);
+    }
+    .banner p{
+        font-size: calc(0.7rem + 0.5vw);
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .banner{
+        padding: 8.5rem 7% 4rem 7%;
+    }
+    .banner h1{
+        font-size: calc(3.7rem + 0.5vw);
+    }
+    .banner p{
+        font-size: calc(0.75rem + 0.5vw);
+        margin-top: 1.2rem;
+    }
+}
+/* Banner End */
+
+/* Why Us Start */
+.why-us{
+    padding: 3rem 7%;
+    opacity: 1;
+    background-image:  linear-gradient(#f2f2f2 2px, transparent 3px), linear-gradient(to right, #f2f2f2 2px, #fafafa 2px);
+    background-size: 100px 110px;
+}
+.why-us h2{
+    font-size: calc(2.2rem + 0.5vw);
+    font-weight: 800;
+    background: linear-gradient(to right, #24b3d3 30%, #de3597 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+.why-us .why-us-cards-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2.5rem;
+}
+.why-us .why-us-cards-row .why-us-card{
+    width: 31.5%;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.653) 0px 0px 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-bottom: 1.95rem;
+}
+.why-us .why-us-card .card-image{
+    width: 19%;
+}
+.why-us .why-us-card .card-image img{
+    width: 100%;
+}
+.why-us .why-us-card .card-content{
+    width: 77%;
+}
+.why-us .why-us-card .card-content span{
+    font-size: calc(0.8rem + 0.5vw);
+    font-weight: 900;
+    display: block;
+    font-family: "Nunito Sans", sans-serif;
+    line-height: normal;
+    color: #000;
+}
+.why-us .why-us-card .card-content p{
+    font-size: calc(0.52rem + 0.5vw);
+    font-weight: 500;
+    color: #505050;
+    margin-top: 0.5rem;
+}
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1260px) and (max-width: 1399px){
+    .why-us{
+        padding: 3.5rem 7%;
+        background-size: 110px 120px;
+    }
+    .why-us h2{
+        font-size: calc(2.5rem + 0.5vw);
+    }
+    .why-us .why-us-cards-row{
+        margin-top: 3rem;
+    }
+    .why-us .why-us-cards-row .why-us-card{
+        padding: 1.3rem;
+        margin-bottom: 2.1rem;
+    }
+    .why-us .why-us-card .card-content span{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .why-us .why-us-card .card-content p{
+        font-size: calc(0.52rem + 0.5vw);
+        margin-top: 0.6rem;
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .why-us{
+        padding: 4rem 7% 3.5rem 7%;
+        background-size: 120px 140px;
+    }
+    .why-us h2{
+        font-size: calc(2.7rem + 0.5vw);
+    }
+    .why-us .why-us-cards-row{
+        margin-top: 3.3rem;
+    }
+    .why-us .why-us-cards-row .why-us-card{
+        padding: 1.5rem;
+        margin-bottom: 2.3rem;
+    }
+    .why-us .why-us-card .card-content span{
+        font-size: calc(1rem + 0.5vw);
+    }
+    .why-us .why-us-card .card-content p{
+        font-size: calc(0.56rem + 0.5vw);
+        margin-top: 0.6rem;
+    }
+}
+/* Why Us End */
+
+/* Zero Brokerage Start */
+.zero-brokerage{
+    padding: 3rem 7%;
+    background: linear-gradient(to bottom, #fff 40%, #2aafd8a7 200%);
+}
+.zero-brokerage h3{
+    font-size: calc(2.8rem + 0.5vw);
+    font-weight: 800;
+    background: linear-gradient(to right, #24b3d3 30%, #de3597 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+.zero-brokerage p{
+    font-size: calc(0.9rem + 0.5vw);
+    font-weight: 600;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+.zero-brokerage-content-row{
+    margin-top: 2.5rem;
+    box-shadow: rgba(0, 0, 0, 0.505) 0px 0px 13px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zero-brokerage-content-row .brokerage-content{
+    width: 47%;
+    text-align: center;
+}
+.zero-brokerage-content-row .brokerage-content p{
+    font-size: calc(1.1rem + 0.5vw);
+    font-weight: 800;
+    color: #676767;
+}
+.zero-brokerage-content-row .brokerage-content span{
+    font-size: calc(1.8rem + 0.5vw);
+    font-weight: 800;
+    color: #000;
+    font-family: "Nunito Sans", sans-serif;
+}
+.zero-brokerage-content-row .brokerage-separator{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+}
+.zero-brokerage-content-row .brokerage-separator img{
+    width: 100%;
+    filter: invert(47%) sepia(51%) saturate(4563%) hue-rotate(184deg) brightness(90%) contrast(95%);
+}
+
+.zero-brokerage h4{
+    font-size: calc(2.2rem + 0.5vw);
+    font-weight: 800;
+    background: linear-gradient(to right, #24b3d3 30%, #de3597 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    margin-top: 3rem;
+}
+.trade-more-content-box{
+    margin-top: 2.5rem;
+    box-shadow: rgba(0, 0, 0, 0.505) 0px 0px 13px;
+    border-radius: 10px;
+    padding: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.trade-more-content-box .trade-more-content-left{
+    width: 40%;
+    text-align: center;
+}
+.trade-more-content-box .trade-more-content-left span{
+    font-size: calc(3.5rem + 0.5vw);
+    font-weight: 800;
+    color: #de3597;
+    font-family: "Nunito Sans", sans-serif;
+}
+.trade-more-content-box .trade-more-content-left p{
+    font-size: calc(1.3rem + 0.5vw);
+    font-weight: 800;
+    color: #000;
+    margin: 0;
+}
+.trade-more-content-box .trade-more-content-right{
+    width: 58%;
+    border: 1.5px solid #de3597;
+    border-radius: 10px;
+    padding: 1.3rem;
+}
+.trade-more-content-box .trade-more-content-right p{
+    margin: 0;
+    font-size: calc(1.2rem + 0.5vw);
+    font-weight: 800;
+    color: #000;
+}
+.trade-more-content-box .trade-more-content-right table{
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 8px;
+    font-size: calc(0.55rem + 0.5vw);
+    color: #464646;
+    text-align: center;
+    overflow: hidden;
+}
+.trade-more-content-box .trade-more-content-right table td{
+    border: 1.5px solid #ccc;
+    padding: 11px;
+}
+.trade-more-content-box .trade-more-content-right table th{
+    border: 1.5px solid #adadad;
+    padding: 11px;
+    background-color: #e03195;
+    color: #fff;
+}
+.trade-more-content-box .trade-more-content-right table tr:nth-child(even){
+    background-color: #efe5fe;
+}
+.trade-more-content-box .trade-more-content-right table tr:nth-child(odd):hover{
+    background-color: #f8f3ff;
+}
+/* Zero Brokerage End */
