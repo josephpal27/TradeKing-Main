@@ -321,7 +321,8 @@
 .national-stock-left table th{
     border: 1.5px solid #a4a4a4;
     padding: 14px;
-    background-color: #cbcbcb;
+    background-color: #e03195;
+    color: #fff;
 }
 .national-stock-left table tr:nth-child(odd){
     background-color: #efe5fe;
