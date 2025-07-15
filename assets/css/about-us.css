@@ -85,6 +85,9 @@
     padding: 1rem;
     margin-bottom: 1.95rem;
 }
+.why-us .why-us-cards-row .why-us-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.907) 0px 0px 12px;
+}
 .why-us .why-us-card .card-image{
     width: 19%;
 }
@@ -286,5 +289,119 @@
 }
 .trade-more-content-box .trade-more-content-right table tr:nth-child(odd):hover{
     background-color: #f8f3ff;
+}
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1260px) and (max-width: 1399px){
+    .zero-brokerage{
+        padding: 3.5rem 7%;
+    }
+    .zero-brokerage h3{
+        font-size: calc(3.2rem + 0.5vw);
+    }
+    .zero-brokerage p{
+        font-size: calc(1.1rem + 0.5vw);
+        margin-top: 0.7rem;
+    }
+    .zero-brokerage-content-row{
+        margin-top: 2.8rem;
+    }
+    .zero-brokerage-content-row .brokerage-content p{
+        font-size: calc(1.3rem + 0.5vw);
+    }
+    .zero-brokerage-content-row .brokerage-content span{
+        font-size: calc(2rem + 0.5vw);
+    }
+
+    .zero-brokerage h4{
+        font-size: calc(2.5rem + 0.5vw);
+        margin-top: 3.5rem;
+    }
+    .trade-more-content-box{
+        margin-top: 2.8rem;
+        padding: 2rem;
+    }
+    .trade-more-content-box .trade-more-content-left span{
+        font-size: calc(3.8rem + 0.5vw);
+    }
+    .trade-more-content-box .trade-more-content-left p{
+        font-size: calc(1.4rem + 0.5vw);
+    }
+    .trade-more-content-box .trade-more-content-right{
+        border: 1.7px solid #de3597;
+        padding: 1.7rem;
+    }
+    .trade-more-content-box .trade-more-content-right p{
+        font-size: calc(1.3rem + 0.5vw);
+    }
+    .trade-more-content-box .trade-more-content-right table{
+        margin-top: 1.2rem;
+        font-size: calc(0.65rem + 0.5vw);
+    }
+    .trade-more-content-box .trade-more-content-right table td{
+        border: 1.7px solid #ccc;
+        padding: 13px;
+    }
+    .trade-more-content-box .trade-more-content-right table th{
+        border: 1.7px solid #adadad;
+        padding: 13px;
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .zero-brokerage{
+        padding: 4rem 7% 4.5rem 7%;
+    }
+    .zero-brokerage h3{
+        font-size: calc(3.4rem + 0.5vw);
+    }
+    .zero-brokerage p{
+        font-size: calc(1.15rem + 0.5vw);
+        margin-top: 0.9rem;
+    }
+    .zero-brokerage-content-row{
+        margin-top: 3rem;
+    }
+    .zero-brokerage-content-row .brokerage-content p{
+        font-size: calc(1.3rem + 0.5vw);
+    }
+    .zero-brokerage-content-row .brokerage-content span{
+        font-size: calc(2.3rem + 0.5vw);
+    }
+
+    .zero-brokerage h4{
+        font-size: calc(2.7rem + 0.5vw);
+        margin-top: 3.7rem;
+    }
+    .trade-more-content-box{
+        margin-top: 3rem;
+        padding: 2.2rem;
+    }
+    .trade-more-content-box .trade-more-content-left span{
+        font-size: calc(4.2rem + 0.5vw);
+    }
+    .trade-more-content-box .trade-more-content-left p{
+        font-size: calc(1.6rem + 0.5vw);
+    }
+    .trade-more-content-box .trade-more-content-right{
+        border: 2px solid #de3597;
+        padding: 1.9rem;
+    }
+    .trade-more-content-box .trade-more-content-right p{
+        font-size: calc(1.45rem + 0.5vw);
+    }
+    .trade-more-content-box .trade-more-content-right table{
+        margin-top: 1.4rem;
+        font-size: calc(0.75rem + 0.5vw);
+    }
+    .trade-more-content-box .trade-more-content-right table td{
+        border: 2px solid #ccc;
+        padding: 15px;
+    }
+    .trade-more-content-box .trade-more-content-right table th{
+        border: 2px solid #adadad;
+        padding: 15px;
+    }
 }
 /* Zero Brokerage End */
