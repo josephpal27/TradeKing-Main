@@ -318,6 +318,11 @@
     border: 1.5px solid #ccc;
     padding: 11px;
 }
+.national-stock-left table th{
+    border: 1.5px solid #a4a4a4;
+    padding: 14px;
+    background-color: #cbcbcb;
+}
 .national-stock-left table tr:nth-child(odd){
     background-color: #efe5fe;
 }
@@ -610,4 +615,25 @@
     width: 100%
 }
 /* Forex Page Styles End */
+/* ---------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------- */
+/* US Stockes & Indices Page Styles Start */
+/* #forex-banner{
+    background-image: url('../images/forex-banner.webp');
+    position: relative;
+} */
+/* US Stockes & Indices Page Styles End */
+/* ---------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------- */
+/* Cryptos Page Styles Start */
+/* #forex-banner{
+    background-image: url('../images/forex-banner.webp');
+    position: relative;
+} */
+ .multi-commodity-exchange .national-stock-right img{
+    width: 100%;
+ }
+/* Cryptos Page Styles End */
 /* ---------------------------------------------------------------- */
