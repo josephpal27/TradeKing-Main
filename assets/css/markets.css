@@ -598,10 +598,13 @@
     background-image: url('../images/forex-banner.webp');
     position: relative;
 }
-#forex-banner .banner-layer{
+.banner{
+    position: relative;
+}
+.banner .banner-layer{
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.819) 30%, rgba(0, 0, 0, 0) 60%);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.819) 40%, rgba(0, 0, 0, 0) 60%);
     position: absolute;
     top: 0;
     left: 0;
@@ -620,21 +623,27 @@
 
 /* ---------------------------------------------------------------- */
 /* US Stockes & Indices Page Styles Start */
-/* #forex-banner{
-    background-image: url('../images/forex-banner.webp');
-    position: relative;
-} */
+#us-stocks-banner{
+    background-image: url('../images/us-stock-banner.webp');
+}
 /* US Stockes & Indices Page Styles End */
 /* ---------------------------------------------------------------- */
 
 /* ---------------------------------------------------------------- */
 /* Cryptos Page Styles Start */
-/* #forex-banner{
-    background-image: url('../images/forex-banner.webp');
-    position: relative;
-} */
+#crypto-banner{
+    background-image: url('../images/crypto-banner.webp');
+}
  .multi-commodity-exchange .national-stock-right img{
     width: 100%;
  }
 /* Cryptos Page Styles End */
+/* ---------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------- */
+/* Comex Page Styles Start */
+#comex-banner{
+    background-image: url('../images/comex-banner.webp');
+}
+/* Comex Page Styles End */
 /* ---------------------------------------------------------------- */
