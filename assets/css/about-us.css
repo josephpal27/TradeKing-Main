@@ -405,3 +405,418 @@
     }
 }
 /* Zero Brokerage End */
+
+/* Compare Us Start */
+.compare-us{
+    padding: 3rem 7% 4.5rem 7%;
+    opacity: 1;
+    background-image:  linear-gradient(#f2f2f2 2px, transparent 3px), linear-gradient(to right, #f2f2f2 2px, #fafafa 2px);
+    background-size: 100px 110px;
+}
+.compare-us h5{
+    font-size: calc(2.2rem + 0.5vw);
+    font-weight: 800;
+    background: linear-gradient(to right, #24b3d3 30%, #de3597 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+.compare-us .compare-box-row{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.compare-us .compare-box-row .compare-box{
+    width: 27%;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.505) 0px 0px 13px;
+}
+.compare-us .compare-box-row .compare-box span{ 
+    color: #000;
+    font-size: calc(1.3rem + 0.5vw);
+    font-weight: 900;
+    font-family: "Nunito Sans", sans-serif;
+    display: block;
+    margin-bottom: 2rem;
+}
+.compare-us .compare-box-row .compare-box p{ 
+    font-size: calc(0.5rem + 0.5vw);
+    font-weight: 400;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 0.6rem 0;
+}
+.compare-us .compare-box-row #tradeking-compare-box{
+    background-color: #e03195;
+    color: #fff;
+    transform: scale(1.05);
+    width: 26%;
+}
+.compare-us .compare-box-row #tradeking-compare-box span{
+    color: #fff;
+}
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1260px) and (max-width: 1399px){
+    .compare-us{
+        padding: 3.5rem 7% 5.5rem 7%;
+        background-size: 110px 120px;
+    }
+    .compare-us h5{
+        font-size: calc(2.5rem + 0.5vw);
+    }
+    .compare-us .compare-box-row{
+        margin-top: 4.5rem;
+    }
+    .compare-us .compare-box-row .compare-box{
+        padding: 1.5rem 1.5rem;
+    }
+    .compare-us .compare-box-row .compare-box span{ 
+        font-size: calc(1.5rem + 0.5vw);
+        margin-bottom: 2.2rem;
+    }
+    .compare-us .compare-box-row .compare-box p{ 
+        font-size: calc(0.55rem + 0.5vw);
+        border-bottom: 1.3px solid #e4e4e4;
+        padding: 0.75rem 0;
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .compare-us{
+        padding: 4rem 7% 6.3rem 7%;
+        background-size: 120px 140px;
+    }
+    .compare-us h5{
+        font-size: calc(2.7rem + 0.5vw);
+    }
+    .compare-us .compare-box-row{
+        margin-top: 4.7rem;
+    }
+    .compare-us .compare-box-row .compare-box{
+        padding: 1.6rem 1.5rem;
+    }
+    .compare-us .compare-box-row .compare-box span{ 
+        font-size: calc(1.65rem + 0.5vw);
+        margin-bottom: 2.2rem;
+    }
+    .compare-us .compare-box-row .compare-box p{ 
+        font-size: calc(0.63rem + 0.5vw);
+        border-bottom: 1.5px solid #e4e4e4;
+        padding: 0.8rem 0;
+    }
+}
+/* Compare Us End */
+
+/* All Markets Start */
+.all-markets{
+    padding: 3rem 7%;
+    background-color: #fdfdfd;
+}
+.all-markets h6{
+    font-size: calc(2.2rem + 0.5vw);
+    font-weight: 800;
+    background: linear-gradient(to right, #24b3d3 30%, #de3597 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+.all-markets-cards-top{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.all-markets-cards-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.4rem;
+}
+.all-markets-card{
+    text-align: center;
+    padding: 2.5rem 0;
+    border-radius: 10px;
+    border: 1.5px solid #e03195;
+    box-shadow: rgba(0, 0, 0, 0.505) 0px 0px 10px;
+    background-color: #fff;
+}
+.all-markets-cards-top .all-markets-card{
+    width: 23.5%;
+}
+.all-markets-cards-bottom .all-markets-card{
+    width: 32%;
+}
+.all-markets-card span{
+    color: #000;
+    font-size: calc(1.3rem + 0.5vw);
+    font-weight: 800;
+    font-family: "Nunito Sans", sans-serif;
+    display: block;
+}
+.all-markets-card:hover{
+    background-color: #e13797;
+}
+.all-markets-card:hover span{
+    color: #fff;
+}
+.all-markets p{
+    margin-top: 2.5rem;
+    text-align: center;
+    color: #000;
+    font-size: calc(1.3rem + 0.5vw);
+    font-weight: 700;
+}
+.all-markets .conversion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.2rem;
+}
+.all-markets .conversion p{
+    margin: 0;
+}
+.all-markets .conversion img{
+    filter: invert(17%) sepia(98%) saturate(6114%) hue-rotate(303deg) brightness(89%) contrast(94%);
+}
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1260px) and (max-width: 1399px){
+    .all-markets{
+        padding: 3.5rem 7%;
+    }
+    .all-markets h6{
+        font-size: calc(2.5rem + 0.5vw);
+    }
+    .all-markets-cards-top{
+        margin-top: 2.8rem;
+    }
+    .all-markets-cards-bottom{
+        margin-top: 1.55rem;
+    }
+    .all-markets-card{
+        padding: 2.7rem 0;
+        border: 1.7px solid #e03195;
+    }
+    .all-markets-card span{
+        font-size: calc(1.5rem + 0.5vw);
+    }
+    .all-markets p{
+        margin-top: 2.8rem;
+        font-size: calc(1.4rem + 0.5vw);
+    }
+    .all-markets .conversion{
+        margin-top: 1.3rem;
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .all-markets{
+        padding: 4rem 7% 3.5rem 7%;
+    }
+    .all-markets h6{
+        font-size: calc(2.7rem + 0.5vw);
+    }
+    .all-markets-cards-top{
+        margin-top: 3rem;
+    }
+    .all-markets-cards-bottom{
+        margin-top: 1.75rem;
+    }
+    .all-markets-card{
+        padding: 3rem 0;
+        border: 1.8px solid #e03195;
+    }
+    .all-markets-card span{
+        font-size: calc(1.7rem + 0.5vw);
+    }
+    .all-markets p{
+        margin-top: 3rem;
+        font-size: calc(1.5rem + 0.5vw);
+    }
+    .all-markets .conversion{
+        margin-top: 1.3rem;
+    }
+}
+/* All Markets End */
+
+/* Platform Status Start */
+.platform-status{
+    padding: 3rem 7%;
+    background-color: #dedede;
+    display: flex;
+    justify-content: space-between;
+}
+.platform-status .status-box{
+    width: 25%;
+    text-align: center;
+}
+.platform-status .status-box span{
+    color: #000;
+    font-size: calc(1.6rem + 0.5vw);
+    font-weight: 800;
+    font-family: "Nunito Sans", sans-serif;
+    display: block;
+}
+.platform-status .status-box p{
+    color: #000;
+    font-size: calc(0.6rem + 0.5vw);
+    font-weight: 500;
+    margin-top: 0.2rem;
+}
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1260px) and (max-width: 1399px){
+    .platform-status{
+        padding: 3.2rem 7%;
+    }
+    .platform-status .status-box span{
+        font-size: calc(1.8rem + 0.5vw);
+    }
+    .platform-status .status-box p{
+        font-size: calc(0.75rem + 0.5vw);
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .platform-status{
+        padding: 3.5rem 7%;
+    }
+    .platform-status .status-box span{
+        font-size: calc(1.9rem + 0.5vw);
+    }
+    .platform-status .status-box p{
+        font-size: calc(0.8rem + 0.5vw);
+    }
+}
+/* Platform Status End */
+
+/*  Open Account Start */
+.open-account{
+    padding: 3rem 7%;
+    display: flex;
+    justify-content: space-between
+}
+.open-account-image{
+    width: 44%;
+}
+.open-account-image img{
+    width: 100%;
+}
+.open-account-content{
+    width: 52%;
+}
+.open-account-content h6{
+    font-size: calc(2.2rem + 0.5vw);
+    font-weight: 800;
+    background: linear-gradient(to right, #24b3d3 5%, #de3597 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    margin-top: 0.5rem;
+}
+.open-account-content p{
+    font-size: calc(0.9rem + 0.5vw);
+    font-weight: 500;
+    margin-top: 1rem;
+}
+.open-account-content .payment-methods{
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.open-account-content .payment-methods img{
+    width: 50px;
+}
+.open-account-content button{
+    border: none;
+    background-color: #de3597;
+    color: #fff;
+    font-size: calc(0.75rem + 0.5vw);
+    padding: 0.5rem 1.2rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+    transition: all 0.2s ease;
+}
+.open-account-content button i{
+    margin-right: 3px;
+    font-size: calc(0.65rem + 0.5vw);
+}
+.open-account-content button:hover{
+    background-color: #1393af;
+}
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1260px) and (max-width: 1399px){
+    .open-account{
+        padding: 3.2rem 7% 3rem 7%;
+    }
+    .open-account-content h6{
+        font-size: calc(2.5rem + 0.5vw);
+        margin-top: 1rem;
+    }
+    .open-account-content p{
+        font-size: calc(0.95rem + 0.5vw);
+        margin-top: 1.2rem;
+    }
+    .open-account-content .payment-methods{
+        gap: 2.2rem;
+        margin-top: 1.5rem;
+    }
+    .open-account-content button{
+        font-size: calc(0.8rem + 0.5vw);
+        padding: 0.55rem 1.4rem;
+        margin-top: 2.2rem;
+    }
+    .open-account-content button i{
+        margin-right: 4px;
+        font-size: calc(0.7rem + 0.5vw);
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .open-account{
+        padding: 3.5rem 7% 3rem 7%;
+    }
+    .open-account-content h6{
+        font-size: calc(2.7rem + 0.5vw);
+        margin-top: 1.1rem;
+    }
+    .open-account-content p{
+        font-size: calc(1rem + 0.5vw);
+        margin-top: 1.3rem;
+    }
+    .open-account-content .payment-methods{
+        gap: 2.2rem;
+        margin-top: 1.8rem;
+    }
+    .open-account-content .payment-methods img{
+        width: 55px;
+    }
+    .open-account-content button{
+        font-size: calc(0.9rem + 0.5vw);
+        padding: 0.6rem 1.5rem;
+        margin-top: 2.5rem;
+    }
+    .open-account-content button i{
+        margin-right: 5px;
+        font-size: calc(0.75rem + 0.5vw);
+    }
+}
+/*  Open Account End */
+
+/* Simple Steps Start */
+.simple-steps{
+    margin-top: 0;
+}
+/* Simple Steps End */
