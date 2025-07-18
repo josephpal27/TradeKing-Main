@@ -1,3 +1,15 @@
+// AOS Animation Hide in Mobile Screens for Some Sections
+document.addEventListener("DOMContentLoaded", function () {
+    const isMobile = window.innerWidth < 992; // Adjust as needed
+
+    if (isMobile) {
+        document.querySelectorAll('.aos-mobile-hide').forEach(el => {
+            el.removeAttribute('data-aos');
+        });
+    }
+});
+
+// ------------------------------------------------------------------------------------------
 
 // Functionality for Home Page Banner Animated Text
 document.addEventListener("DOMContentLoaded", function () {
