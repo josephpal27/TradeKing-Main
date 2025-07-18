@@ -53,6 +53,20 @@
         margin-top: 1.1rem;
     }
 }
+
+/* For small screens */
+@media screen and (max-width: 767px) {
+    .banner{
+        padding: 6rem 1rem 3rem 1rem;
+    }
+    .banner h1{
+        font-size: calc(2.5rem + 0.5vw);
+    }
+    .banner p{
+        font-size: calc(0.95rem + 0.5vw);
+        margin-top: 0.8rem;
+    }
+}
 /* Banner End */
 
 /* Regulation Cards Start */
@@ -143,6 +157,28 @@
     }
     .regulation-cards-row .regulation-card .card-content img{
         width: 68px;
+    }
+}
+
+/* For small screens */
+@media screen and (max-width: 767px) {
+    .regulation-cards-row{
+        padding: 1.5rem 1rem 1rem 1rem;
+    }
+    .regulation-cards-row .regulation-card{
+        width: 100%;
+        padding: 1.2rem 1rem;
+        margin-bottom: 1.2rem;
+    }
+    .regulation-cards-row .regulation-card span{
+        font-size: calc(1.2rem + 0.5vw);
+    }
+    .regulation-cards-row .regulation-card p{
+        font-size: calc(0.8rem + 0.5vw);
+        margin-top: 1rem;
+    }
+    .regulation-cards-row .regulation-card .card-content img{
+        width: 50px;
     }
 }
 /* Regulation Cards End */
@@ -243,6 +279,34 @@
     }
     .security .security-content-card p{
         font-size: calc(0.68rem + 0.5vw);
+    }
+}
+
+/* For small screens */
+@media screen and (max-width: 767px) {
+    .security{
+        padding: 1.5rem 1rem 2.5rem 1rem;
+        background-size: 50px 60px;
+    }
+    .security h2{
+        font-size: calc(1.5rem + 0.5vw);
+    }
+    .security .security-content{
+        padding: 1.5rem 1.2rem 0.5rem 0.8rem;
+        margin-top: 1.2rem;
+    }
+    .security .security-content-card{
+        width: 100%;
+        align-items: start;
+        gap: 0.8rem;
+        margin-bottom: 1.2rem;
+    }
+    .security .security-content-card img{
+        width: 25px;
+        height: 25px;
+    }
+    .security .security-content-card p{
+        font-size: calc(0.8rem + 0.5vw);
     }
 }
 /* Security End */
