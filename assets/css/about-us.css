@@ -50,6 +50,20 @@
         margin-top: 1.2rem;
     }
 }
+
+/* For small screens */
+@media screen and (max-width: 767px) {
+    .banner{
+        padding: 6rem 1rem 2rem 1rem;
+    }
+    .banner h1{
+        font-size: calc(2rem + 0.5vw);
+    }
+    .banner p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.8rem;
+    }
+}
 /* Banner End */
 
 /* Why Us Start */
@@ -159,6 +173,37 @@
     .why-us .why-us-card .card-content p{
         font-size: calc(0.56rem + 0.5vw);
         margin-top: 0.6rem;
+    }
+}
+
+/* For small screens */
+@media screen and (max-width: 767px) {
+    .why-us{
+        padding: 1.7rem 1rem 1.3rem 1rem;
+        background-size: 50px 60px;
+    }
+    .why-us h2{
+        font-size: calc(1.5rem + 0.5vw);
+    }
+    .why-us .why-us-cards-row{
+        margin-top: 1.5rem;
+    }
+    .why-us .why-us-cards-row .why-us-card{
+        width: 100%;
+        padding: 1rem 1rem 1rem 0.7rem;
+        margin-bottom: 1.2rem;
+    }
+    .why-us .why-us-card .card-image{
+        width: 15%;
+    }
+    .why-us .why-us-card .card-content{
+        width: 82%;
+    }
+    .why-us .why-us-card .card-content span{
+        font-size: calc(1.1rem + 0.5vw);
+    }
+    .why-us .why-us-card .card-content p{
+        font-size: calc(0.8rem + 0.5vw);
     }
 }
 /* Why Us End */
