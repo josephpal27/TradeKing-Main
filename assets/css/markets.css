@@ -116,7 +116,7 @@
         color: #000;
         font-size: calc(0.9rem + 0.5vw);
         width: 100%;
-        margin-top: 1.5rem;
+        margin-top: 2rem;
     }
     .banner-btn-row{
         gap: 1rem;
@@ -146,15 +146,6 @@
         color: #fff;
     }
 }
-
-/* @media screen and (max-width: 767px) and (min-height: 801px) and (max-height: 950px){
-    .banner h1{
-        margin-top: 9rem;
-    } 
-    .banner p{
-        margin-top: 3rem;
-    }
-} */
 /* Banner End */
 
 /* Why Trade Start */

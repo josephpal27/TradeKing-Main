@@ -127,6 +127,7 @@ nav .btn-login:hover{
 @media (max-width: 991px) {
     nav{
         padding: 0.5rem 0 !important;
+        backdrop-filter: blur(0);
     }
     nav:has(.navbar-collapse.show) {
         backdrop-filter: blur(25px);
