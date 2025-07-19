@@ -96,6 +96,65 @@
         padding: 0.65rem 1.3rem;
     }
 }
+
+/* For small screens */
+@media screen and (max-width: 767px){
+    nav{
+        background: linear-gradient(to right, #24b3d3, #de3597 60%);
+    }
+    .banner{
+        min-height: auto;
+        background-size: contain;
+        padding: 0 1rem 1.8rem 1rem;
+        margin-top: 5rem;
+    }
+    .banner h1{
+        font-size: calc(2rem + 0.5vw);
+        margin-top: 7rem;
+    }
+    .banner p{
+        color: #000;
+        font-size: calc(0.9rem + 0.5vw);
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    .banner-btn-row{
+        gap: 1rem;
+        margin-top: 1.2rem;
+    }
+    .banner-btn-row button{
+        border: none;
+        background-color: #fff;
+        color: #de3597;
+        font-size: calc(0.75rem + 0.5vw);
+        font-weight: 500;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        transition: all 0.2s ease;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    }
+    .banner-btn-row button:hover{
+        background-color: #1393af;
+        color: #fff;
+    }
+    .banner-btn-row a:last-child button{
+        background-color: #de3597;
+        color: #fff;
+    }
+    .banner-btn-row a:last-child button:hover{
+        background-color: #1393af;
+        color: #fff;
+    }
+}
+
+/* @media screen and (max-width: 767px) and (min-height: 801px) and (max-height: 950px){
+    .banner h1{
+        margin-top: 9rem;
+    } 
+    .banner p{
+        margin-top: 3rem;
+    }
+} */
 /* Banner End */
 
 /* Why Trade Start */
