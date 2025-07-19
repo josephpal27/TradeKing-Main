@@ -84,6 +84,7 @@
     border-radius: 10px;
     margin-bottom: 1.5rem;
     background-color: #fff;
+    text-decoration: none;
     transition: all 0.1s ease;
 }
 .regulation-cards-row .regulation-card:hover{
